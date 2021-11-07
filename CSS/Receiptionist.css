@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="707.0" prefWidth="1366.0" style="-fx-background-color: #0a2039;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.fxml.AdminDashboardController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-1.0" prefHeight="708.0" prefWidth="198.0" style="-fx-background-color: #031f46 #031f46 #031f46 #031f46 #031f46;">
+         <children>
+            <Button layoutY="169.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="SessionsButton" stylesheets="@HOMEPAGE.css" text="       Sessions" textFill="#dfe8eb">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="56.0" layoutY="182.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/create_archive_32px.png" />
+               </image>
+            </ImageView>
+            <Button layoutY="215.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="ReportsButton" stylesheets="@HOMEPAGE.css" text="     Reports" textFill="#dfe8eb">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="55.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/report_card_26px.png" />
+               </image>
+            </ImageView>
+            <Button layoutY="261.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="ContactButton" stylesheets="@HOMEPAGE.css" text="          Contact Us" textFill="#dfe8eb">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="56.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/phone_32px.png" />
+               </image>
+            </ImageView>
+            <Button layoutY="308.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="SettingsButton" stylesheets="@HOMEPAGE.css" text="     Settings" textFill="#dfe8eb">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="20.0" fitWidth="22.0" layoutX="56.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/settings_32px.png" />
+               </image>
+            </ImageView>
+            <Button layoutY="644.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="LogoutButton" stylesheets="@HOMEPAGE.css" text="   Log Out" textFill="#dfe8eb">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="18.0" fitWidth="22.0" layoutX="56.0" layoutY="657.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/logout_rounded_down_24px.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="5.0" layoutY="30.0" prefHeight="31.0" prefWidth="48.0" text="EMR" textFill="#1809c3">
+               <font>
+                  <Font name="Arial Narrow" size="26.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="40.0" fitWidth="30.0" layoutX="66.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/electronic-medical-records-icon.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="173.0" layoutY="33.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="23.0" style="-fx-background-color: #031f46 #031f46 #031f46 #031f46 #031f46;" styleClass="MenuButton" stylesheets="@HOMEPAGE.css" />
+            <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="173.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../IMAGES/menu_32px.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="53.0" layoutY="35.0" prefHeight="23.0" prefWidth="0.0" text="." textFill="#a82615">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="137.0" prefHeight="17.0" prefWidth="41.0" text="Main" textFill="#486365">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="-2.0" layoutY="93.0" prefHeight="1.0" prefWidth="229.0" style="-fx-background-color: #dfe8eb;" />
+            <AnchorPane layoutX="4.0" layoutY="628.0" prefHeight="1.0" prefWidth="229.0" style="-fx-background-color: #dfe8eb;" />
+         </children>
+      </AnchorPane>
+      <TextField layoutX="404.0" layoutY="36.0" prefHeight="30.0" prefWidth="480.0" promptText="Search" style="-fx-background-color: #031f46 #031f46 #031f46 #031f46 #031f46;" styleClass="SearchBar" stylesheets="@HOMEPAGE.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="1316.0" layoutY="2.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="16.0" style="-fx-background-color: #0a2039;" styleClass="MaximizeButton" stylesheets="@HOMEPAGE.css" />
+      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="1316.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMAGES/maximize_button_24px.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1341.0" layoutY="2.0" mnemonicParsing="false" prefHeight="16.0" prefWidth="16.0" style="-fx-background-color: #0a2039;" styleClass="ExitButton" stylesheets="@HOMEPAGE.css" />
+      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="1341.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMAGES/cancel.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1286.0" layoutY="2.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="23.0" style="-fx-background-color: #0a2039;" styleClass="MinimizeButton" stylesheets="@HOMEPAGE.css" />
+      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="1286.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMAGES/minimize.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="861.0" layoutY="39.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="23.0" style="-fx-background-color: #031f46 #031f46 #031f46 #031f46 #031f46;" styleClass="SearchButton" stylesheets="@HOMEPAGE.css" />
+      <ImageView fitHeight="23.0" fitWidth="23.0" layoutX="861.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMAGES/search_24px.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="996.0" layoutY="39.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="16.0" style="-fx-background-color: #0a2039;" styleClass="MessageButton" stylesheets="@HOMEPAGE.css" />
+      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="996.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMAGES/message.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="1039.0" layoutY="39.0" mnemonicParsing="false" prefHeight="12.0" prefWidth="16.0" style="-fx-background-color: #0a2039;" styleClass="NotificationButton" stylesheets="@HOMEPAGE.css" />
+      <ImageView fitHeight="21.0" fitWidth="20.0" layoutX="1039.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../IMAGES/notification_32px.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="249.0" layoutY="89.0" prefHeight="603.0" prefWidth="1074.0" style="-fx-background-color: #031f46 #031f46 #031f46 #031f46 #031f46;">
+         <children>
+            <TableView layoutX="4.0" layoutY="35.0" prefHeight="556.0" prefWidth="1060.0" style="-fx-background-color: #031f46 #031f46 #031f46 #031f46 #031f46;" styleClass="MedicalTable" stylesheets="@HOMEPAGE.css">
+               <columns>
+                  <TableColumn prefWidth="209.0" text="Name" />
+                  <TableColumn prefWidth="158.0" text="Position" />
+                  <TableColumn prefWidth="166.0" text="Contact" />
+                  <TableColumn prefWidth="161.0" text="Working Time" />
+               </columns>
+            </TableView>
+            <Label layoutX="233.0" layoutY="4.0" prefHeight="21.0" prefWidth="244.0" text="Patients List" textFill="#dfe8eb">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="17.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets left="15.0" />
+               </padding>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

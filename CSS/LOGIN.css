@@ -1,0 +1,54 @@
+.LoginAnchorpane
+{
+    -fx-background-color : #0a2039;
+}
+
+.LoginAnchor
+{
+    -fx-background-color :   #031f46; 
+}
+.LoginAnchor:hover
+{
+    
+}
+
+.SignInButton
+{
+    -fx-background-color : #0d9cd4;
+}
+.SignInButton:hover
+{
+    -fx-background-color : #0f50db;
+    -fx-pref-height:36px;
+}
+
+.TermsOfUseButton
+{
+    -fx-background-color: #031f46; 
+}
+.TermsOfUseButton:hover
+{
+    -fx-pref-height:40px;
+}
+
+.NeedHelpButton
+{
+    -fx-background-color: #031f46;  
+}
+.NeedHelpButton:hover
+{
+    -fx-pref-height:40px;
+}
+.SignUpButton
+{
+    -fx-background-color: #031f46;
+
+}
+.SignUpButton:hover
+{
+    -fx-pref-width:115px;
+    -fx-pref-height:38px;
+    -fx-background-color: #043272;
+    
+} 
+

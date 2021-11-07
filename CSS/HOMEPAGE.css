@@ -1,0 +1,130 @@
+
+.MenuButton:hover
+{
+    -fx-background-color:  #1809c3;
+}
+
+.DashboardButton
+{
+    -fx-background-color : #031f46;
+}
+.DashboardButton:hover
+{
+    -fx-background-color:  #0c3f81;  
+}
+
+.ScannerButton
+{
+    -fx-background-color :#031f46;
+}
+.ScannerButton:hover
+{
+    -fx-background-color:  #0c3f81;  
+
+}
+.CategoryButton
+{
+    -fx-background-color :#031f46;    
+}
+.CategoryButton:hover
+{
+    -fx-background-color :#0c3f81;   
+}
+
+.SessionsButton
+{
+    -fx-background-color :#031f46;    
+}
+.SessionsButton:hover
+{
+    -fx-background-color :#0c3f81;   
+}
+
+.AnalyticsButton
+{
+    -fx-background-color :#031f46;  
+}
+.AnalyticsButton:hover
+{
+    -fx-background-color :#0c3f81;     
+}
+.ReportsButton
+{
+    -fx-background-color :#031f46;   
+}
+.ReportsButton:hover
+{
+    -fx-background-color :#0c3f81;        
+}
+
+.ContactButton
+{
+    -fx-background-color :#031f46;    
+}
+.ContactButton:hover
+{
+    -fx-background-color :#0c3f81;     
+}
+
+.SettingsButton
+{
+    -fx-background-color :#031f46;  
+}
+.SettingsButton:hover
+{
+    -fx-background-color :#0c3f81;   
+}
+
+
+.LogoutButton
+{
+    -fx-background-color :#031f46;  
+}
+.LogoutButton:hover
+{
+    -fx-background-color :#b64637;  
+}
+
+.InfectionsPane
+{
+    -fx-background-color :#031f46;
+}
+.InfectionsPane:hover
+{
+    -fx-background-color : #07346f; 
+}
+.STIPane
+{
+    -fx-background-color :#031f46;  
+}
+.STIPane:hover
+{
+    -fx-background-color : #07346f;    
+}
+
+.AdmittedPane
+{
+    -fx-background-color :#031f46;    
+}
+.AdmittedPane:hover
+{
+    -fx-background-color : #07346f;   
+}
+
+.SpecialCarePane
+{
+    -fx-background-color :#031f46; 
+}
+.SpecialCarePane:hover
+{
+    -fx-background-color : #07346f;    
+}
+
+.SessionPane
+{
+    -fx-background-color :#031f46; 
+}
+.SessionPane:hover
+{
+    -fx-background-color : #07346f;   
+}
