@@ -66,7 +66,7 @@
                   <Image url="@../IMAGES/phone_32px.png" />
                </image>
             </ImageView>
-            <Button layoutX="-2.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="SettingsButton" stylesheets="@../CSS/HOMEPAGE.css" text="     Settings" textFill="#dfe8eb">
+            <Button layoutX="-2.0" layoutY="399.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="229.0" styleClass="SettingsButton" stylesheets="@../CSS/HOMEPAGE.css" text="     Setting" textFill="#dfe8eb">
                <font>
                   <Font name="Arial Rounded MT Bold" size="13.0" />
                </font>
